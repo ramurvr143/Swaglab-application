@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testngsuitforswag">
+
+  <test name="login">
+   
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<classes>
+
+<class name ="swagtestcases.logintestcase"></class>
+
+</classes>
+</test>
+ 
+ <test name="addtocard">
+   
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="select1" value="add-to-cart-sauce-labs-fleece-jacket"></parameter>
+<parameter name="select2" value="add-to-cart-sauce-labs-bolt-t-shirt"></parameter>
+
+<classes>
+    
+      <class name="swagtestcases.addcardtestcase"> </class>
+      
+    </classes>
+</test>
+
+<test name="display order">
+   
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="order" value="lohi"></parameter>
+
+<classes>
+
+<class name ="swagtestcases.Orderdisplay"></class>
+
+</classes>
+</test>
+
+
+<test name="getcr">
+   
+
+<classes>
+
+<class name ="swagtestcases.Credentialstestcase"></class>
+
+</classes>
+</test>
+
+ 
+<test name="buy">
+   
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="fname" value="raja"></parameter>
+<parameter name="lname" value="rani"></parameter>
+<parameter name="pincode" value="546878"></parameter>
+
+<classes>
+
+<class name ="swagtestcases.Buytestcase"></class>
+
+</classes>
+</test>
+
+
+ <test name="about">
+   
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="texturl" value="saucelabs.com"></parameter>
+
+<classes>
+
+<class name ="swagtestcases.Aboutustestcase"></class>
+
+</classes>
+</test>
+
+
+<test name="logininvalid">
+   
+<parameter name="username" value="ramu"></parameter>
+<parameter name="password" value="ramu1432"></parameter>
+<classes>
+<class name="swagtestcases.Loginwithinvalid"></class>
+</classes>
+</test> 
+
+
+   
+</suite> 

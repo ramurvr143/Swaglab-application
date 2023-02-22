@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-testngsuitforswag" class="navigator-link">
+              <span class="suite-name border-failed">testngsuitforswag</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-testngsuitforswag" class="navigator-link ">
+                    <span>C:\Users\lab 3\Desktop\ramrvr\session\seleniumtool\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-testngsuitforswag" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-testngsuitforswag" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-testngsuitforswag" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-testngsuitforswag" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-testngsuitforswag" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-testngsuitforswag" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 4 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testngsuitforswag" class="hide-methods failed suite-testngsuitforswag"> (hide)</a> <!-- hide-methods failed suite-testngsuitforswag -->
+                      <a href="#" panel-name="suite-testngsuitforswag" class="show-methods failed suite-testngsuitforswag"> (show)</a> <!-- show-methods failed suite-testngsuitforswag -->
+                    </span>
+                    <div class="method-list-content failed suite-testngsuitforswag">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.Aboutustestcase" class="method navigator-link" hash-for-method="about(standard_user, secret_sauce, saucelabs.com)">about(standard_user, secret_sauce, saucelabs.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.Loginwithinvalid" class="method navigator-link" hash-for-method="logininvalid(ramu, ramu1432)">logininvalid(ramu, ramu1432)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.Buytestcase" class="method navigator-link" hash-for-method="orderplaced(standard_user, secret_sauce, raja, rani, 546878)">orderplaced(standard_user, secret_sauce, raja, rani, 546878)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.Credentialstestcase" class="method navigator-link" hash-for-method="prcredentials">prcredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testngsuitforswag -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testngsuitforswag" class="hide-methods passed suite-testngsuitforswag"> (hide)</a> <!-- hide-methods passed suite-testngsuitforswag -->
+                      <a href="#" panel-name="suite-testngsuitforswag" class="show-methods passed suite-testngsuitforswag"> (show)</a> <!-- show-methods passed suite-testngsuitforswag -->
+                    </span>
+                    <div class="method-list-content passed suite-testngsuitforswag">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.addcardtestcase" class="method navigator-link" hash-for-method="addcard(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shi...)">addcard(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.logintestcase" class="method navigator-link" hash-for-method="loginuser(standard_user, secret_sauce)">loginuser(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testngsuitforswag" title="swagtestcases.Orderdisplay" class="method navigator-link" hash-for-method="order(standard_user, secret_sauce, lohi)">order(standard_user, secret_sauce, lohi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testngsuitforswag -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testngsuitforswag" class="panel testngsuitforswag">
+          <div class="suite-testngsuitforswag-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">swagtestcases.Aboutustestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="about(standard_user, secret_sauce, saucelabs.com)">
+                  </a> <!-- about(standard_user, secret_sauce, saucelabs.com) -->
+                  <span class="method-name">about</span>
+                  <span class="parameters">(standard_user, secret_sauce, saucelabs.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-4INAUOB&apos;, ip: &apos;192.168.0.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 109.0.5414.25 (771113d280dd..., userDataDir: C:\Users\LAB3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e028ba9799707e0abcd1caf685b07a4e
+*** Element info: {Using=id, value=user-name}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libraries.loginpage.login(loginpage.java:11)
+	at swagtestcases.Aboutustestcase.about(Aboutustestcase.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-failed -->
+          <div class="suite-testngsuitforswag-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">swagtestcases.Credentialstestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="prcredentials">
+                  </a> <!-- prcredentials -->
+                  <span class="method-name">prcredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login_credentials&quot;}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-4INAUOB&apos;, ip: &apos;192.168.0.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 109.0.5414.25 (771113d280dd..., userDataDir: C:\Users\LAB3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e028ba9799707e0abcd1caf685b07a4e
+*** Element info: {Using=id, value=login_credentials}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libraries.Getlogincre.credentials(Getlogincre.java:12)
+	at swagtestcases.Credentialstestcase.prcredentials(Credentialstestcase.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-failed -->
+          <div class="suite-testngsuitforswag-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">swagtestcases.Buytestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderplaced(standard_user, secret_sauce, raja, rani, 546878)">
+                  </a> <!-- orderplaced(standard_user, secret_sauce, raja, rani, 546878) -->
+                  <span class="method-name">orderplaced</span>
+                  <span class="parameters">(standard_user, secret_sauce, raja, rani, 546878)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-4INAUOB&apos;, ip: &apos;192.168.0.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 109.0.5414.25 (771113d280dd..., userDataDir: C:\Users\LAB3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e028ba9799707e0abcd1caf685b07a4e
+*** Element info: {Using=id, value=user-name}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libraries.loginpage.login(loginpage.java:11)
+	at swagtestcases.Buytestcase.orderplaced(Buytestcase.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-failed -->
+          <div class="suite-testngsuitforswag-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">swagtestcases.Loginwithinvalid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logininvalid(ramu, ramu1432)">
+                  </a> <!-- logininvalid(ramu, ramu1432) -->
+                  <span class="method-name">logininvalid</span>
+                  <span class="parameters">(ramu, ramu1432)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-4INAUOB&apos;, ip: &apos;192.168.0.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 109.0.5414.25 (771113d280dd..., userDataDir: C:\Users\LAB3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e028ba9799707e0abcd1caf685b07a4e
+*** Element info: {Using=id, value=user-name}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libraries.loginpage.login(loginpage.java:11)
+	at swagtestcases.Loginwithinvalid.logininvalid(Loginwithinvalid.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-failed -->
+          <div class="suite-testngsuitforswag-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">swagtestcases.Orderdisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="order(standard_user, secret_sauce, lohi)">
+                  </a> <!-- order(standard_user, secret_sauce, lohi) -->
+                  <span class="method-name">order</span>
+                  <span class="parameters">(standard_user, secret_sauce, lohi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-passed -->
+          <div class="suite-testngsuitforswag-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">swagtestcases.logintestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginuser(standard_user, secret_sauce)">
+                  </a> <!-- loginuser(standard_user, secret_sauce) -->
+                  <span class="method-name">loginuser</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-passed -->
+          <div class="suite-testngsuitforswag-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">swagtestcases.addcardtestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcard(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shi...)">
+                  </a> <!-- addcard(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shi...) -->
+                  <span class="method-name">addcard</span>
+                  <span class="parameters">(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shirt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testngsuitforswag-class-passed -->
+        </div> <!-- panel testngsuitforswag -->
+        <div panel-name="test-xml-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lab 3\Desktop\ramrvr\session\seleniumtool\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;testngsuitforswag&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;login&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.logintestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;addtocard&quot;&gt;
+    &lt;parameter name=&quot;select2&quot; value=&quot;add-to-cart-sauce-labs-bolt-t-shirt&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;select1&quot; value=&quot;add-to-cart-sauce-labs-fleece-jacket&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.addcardtestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- addtocard --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;display order&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;parameter name=&quot;order&quot; value=&quot;lohi&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.Orderdisplay&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- display order --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;getcr&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.Credentialstestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- getcr --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;buy&quot;&gt;
+    &lt;parameter name=&quot;fname&quot; value=&quot;raja&quot;/&gt;
+    &lt;parameter name=&quot;pincode&quot; value=&quot;546878&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;lname&quot; value=&quot;rani&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.Buytestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- buy --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;about&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;parameter name=&quot;texturl&quot; value=&quot;saucelabs.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.Aboutustestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- about --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;logininvalid&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;ramu1432&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;ramu&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;swagtestcases.Loginwithinvalid&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- logininvalid --&gt;
+&lt;/suite&gt; &lt;!-- testngsuitforswag --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testngsuitforswag</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">addtocard (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">display order (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">getcr (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">buy (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">about (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">logininvalid (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testngsuitforswag</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testngsuitforswag</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testngsuitforswag');
+function tableData_testngsuitforswag() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'orderplaced')
+data.setCell(0, 2, 'swagtestcases.Buytestcase')
+data.setCell(0, 3, 20071);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'prcredentials')
+data.setCell(1, 2, 'swagtestcases.Credentialstestcase')
+data.setCell(1, 3, 20067);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'about')
+data.setCell(2, 2, 'swagtestcases.Aboutustestcase')
+data.setCell(2, 3, 20038);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logininvalid')
+data.setCell(3, 2, 'swagtestcases.Loginwithinvalid')
+data.setCell(3, 3, 20036);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addcard')
+data.setCell(4, 2, 'swagtestcases.addcardtestcase')
+data.setCell(4, 3, 531);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginuser')
+data.setCell(5, 2, 'swagtestcases.logintestcase')
+data.setCell(5, 3, 527);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'order')
+data.setCell(6, 2, 'swagtestcases.Orderdisplay')
+data.setCell(6, 3, 316);
+window.suiteTableData['testngsuitforswag']= { tableData: data, tableDiv: 'times-div-testngsuitforswag'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testngsuitforswag">
+              </div> <!-- times-div-testngsuitforswag -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testngsuitforswag</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testngsuitforswag" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Loginwithinvalid</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchapp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.logintestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginuser(standard_user, secret_sauce)</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.addcardtestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addcard(standard_user, secret_sauce, add-to-cart-sauce-labs-fleece-jacket, add-to-cart-sauce-labs-bolt-t-shi...)</span>
+                <span class="method-start">3108 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Orderdisplay</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">order(standard_user, secret_sauce, lohi)</span>
+                <span class="method-start">3646 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Credentialstestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">prcredentials</span>
+                <span class="method-start">3968 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Buytestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">orderplaced(standard_user, secret_sauce, raja, rani, 546878)</span>
+                <span class="method-start">24051 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Aboutustestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">about(standard_user, secret_sauce, saucelabs.com)</span>
+                <span class="method-start">44163 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">swagtestcases.Loginwithinvalid</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logininvalid(ramu, ramu1432)</span>
+                <span class="method-start">64237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">84299 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

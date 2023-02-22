@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testngsuitforswag]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="getcr(failed)">
+    <classes>
+      <class name="swagtestcases.Credentialstestcase">
+        <methods>
+          <include name="prcredentials"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- swagtestcases.Credentialstestcase -->
+    </classes>
+  </test> <!-- getcr(failed) -->
+  <test thread-count="5" name="buy(failed)">
+    <parameter name="fname" value="raja"/>
+    <parameter name="pincode" value="546878"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="lname" value="rani"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="swagtestcases.Buytestcase">
+        <methods>
+          <include name="orderplaced" invocation-numbers="0"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- swagtestcases.Buytestcase -->
+    </classes>
+  </test> <!-- buy(failed) -->
+  <test thread-count="5" name="about(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <parameter name="texturl" value="saucelabs.com"/>
+    <classes>
+      <class name="swagtestcases.Aboutustestcase">
+        <methods>
+          <include name="about" invocation-numbers="0"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- swagtestcases.Aboutustestcase -->
+    </classes>
+  </test> <!-- about(failed) -->
+  <test thread-count="5" name="logininvalid(failed)">
+    <parameter name="password" value="ramu1432"/>
+    <parameter name="username" value="ramu"/>
+    <classes>
+      <class name="swagtestcases.Loginwithinvalid">
+        <methods>
+          <include name="logininvalid" invocation-numbers="0"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- swagtestcases.Loginwithinvalid -->
+    </classes>
+  </test> <!-- logininvalid(failed) -->
+</suite> <!-- Failed suite [testngsuitforswag] -->
